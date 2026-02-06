@@ -1,0 +1,58 @@
+{
+  "tarifas_odontologicas_costa_rica_2025": {
+    "1_diagnostico": [
+      {"codigo": "1.1", "servicio": "Consulta odontológica general", "monto_crc": 48000},
+      {"codigo": "1.2", "servicio": "Consulta odontológica específica", "monto_crc": 36000},
+      {"codigo": "1.3", "servicio": "Consulta Post Tratamiento", "monto_crc": 35000},
+      {"codigo": "1.4", "servicio": "Fotografía Digital Intraorales y Extraorales", "monto_crc": 26000},
+      {"codigo": "1.5", "servicio": "Consulta de Emergencia", "monto_crc": 92000},
+      {"codigo": "1.6", "servicio": "Consulta Primera Vez (Virtual)", "monto_crc": 33000},
+      {"codigo": "1.7", "servicio": "Escaneo Digital", "monto_crc": 40000}
+    ],
+    "2_radiologia": [
+      {"codigo": "2.1", "servicio": "Radiografía Convencional o Digital", "monto_crc": 19000},
+      {"codigo": "2.2", "servicio": "Radiografía Oclusal", "monto_crc": 17000},
+      {"codigo": "2.3", "servicio": "Radiografía Panorámica", "monto_crc": 26000},
+      {"codigo": "2.4", "servicio": "Radiografía Cefalométrica", "monto_crc": 26000},
+      {"codigo": "2.5", "servicio": "Estudio de Ortodoncia", "monto_crc": 62000},
+      {"codigo": "2.6", "servicio": "Estudio de Ortodoncia Digital", "monto_crc": 66000},
+      {"codigo": "2.7", "servicio": "Tomografía Computarizada Cone Beam Sextante", "monto_crc": 41000},
+      {"codigo": "2.8", "servicio": "Tomografía Computarizada Cone Beam 1 Arcada", "monto_crc": 51000},
+      {"codigo": "2.9", "servicio": "Tomografía Computarizada Cone Beam 2 Arcadas", "monto_crc": 71000},
+      {"codigo": "2.10", "servicio": "Informe Radiológico", "monto_crc": 42000}
+    ],
+    "3_operatoria": [
+      {"codigo": "3.1", "servicio": "Amalgama Simple", "monto_crc": 33000},
+      {"codigo": "3.2", "servicio": "Amalgama Compleja", "monto_crc": 48000},
+      {"codigo": "3.3", "servicio": "Resina Simple", "monto_crc": 43000},
+      {"codigo": "3.4", "servicio": "Resina Compleja", "monto_crc": 61000},
+      {"codigo": "3.5", "servicio": "Resina Reconstrucción de Ángulo", "monto_crc": 54000},
+      {"codigo": "3.6", "servicio": "Resina Cervical", "monto_crc": 43000},
+      {"codigo": "3.7", "servicio": "Carilla Resina (Directa)", "monto_crc": 82000},
+      {"codigo": "3.8", "servicio": "Carilla Resina (Indirecta)", "monto_crc": 108000},
+      {"codigo": "3.9", "servicio": "Temporización Simple (ZOE, IV, Otros)", "monto_crc": 27000},
+      {"codigo": "3.10", "servicio": "Temporización Compleja (ZOE, IV, Otros)", "monto_crc": 40000},
+      {"codigo": "3.11", "servicio": "Reconstrucción por Fractura en Resina", "monto_crc": 63000},
+      {"codigo": "3.12", "servicio": "Ajuste Oclusal", "monto_crc": 29000}
+    ],
+    "4_endodoncia": [
+      {"codigo": "4.1", "servicio": "Endodoncia Anteriores y retratamiento (Uniradiculares)", "monto_crc": 71000},
+      {"codigo": "4.2", "servicio": "Endodoncia Premolares y retratamiento (Birradiculares)", "monto_crc": 91000},
+      {"codigo": "4.3", "servicio": "Endodoncia Molares y retratamiento (Multiradiculares)", "monto_crc": 163000},
+      {"codigo": "4.4", "servicio": "Pulpotomía", "monto_crc": 44000},
+      {"codigo": "4.5", "servicio": "Pulpectomía", "monto_crc": 63000},
+      {"codigo": "4.6", "servicio": "Extirpación Pulpar", "monto_crc": 44000},
+      {"codigo": "4.7", "servicio": "Apicectomía y Retrobturación", "monto_crc": 133000}
+    ],
+    "5_prostodoncia_fija": [
+      {"codigo": "5.1.1.1", "servicio": "Corona Metálica Semi-Precioso", "monto_crc": 209000},
+      {"codigo": "5.1.1.2", "servicio": "Corona Metálica No Precioso", "monto_crc": 199000},
+      {"codigo": "5.1.1.3", "servicio": "Corona Metal - Porcelana Semi-Precioso", "monto_crc": 238000},
+      {"codigo": "5.1.1.4", "servicio": "Corona Metal - Porcelana no precioso", "monto_crc": 211000},
+      {"codigo": "5.1.1.5", "servicio": "Corona Zirconio y/o Porcelana", "monto_crc": 229000},
+      {"codigo": "5.1.1.6", "servicio": "Atache de Precisión y Corona", "monto_crc": 284000},
+      {"codigo": "5.1.1.7", "servicio": "Remoción de Corona", "monto_crc": 40000},
+      {"codigo": "5.1.1.8", "servicio": "Laminado Zirconio y/o Porcelana", "monto_crc": 229000}
+    ]
+  }
+}
