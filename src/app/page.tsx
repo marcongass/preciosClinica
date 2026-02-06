@@ -1,5 +1,6 @@
 import TariffTable from "@/components/TariffTable";
 import tariffData from "@/data/tariffs.json";
+import LoveAnimations from "@/components/LoveAnimations";
 
 export default function Home() {
   return (
@@ -45,36 +46,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Feature Cards */}
         <div className="mx-auto mt-32 max-w-7xl px-6">
-          <div className="grid gap-8 md:grid-cols-3">
-            {[
-              {
-                title: "Precios Actualizados",
-                desc: "Información verificada directamente con las clínicas locales.",
-                icon: "📅",
-              },
-              {
-                title: "Comparativas Reales",
-                desc: "Compara costos entre diferentes centros médicos de tu ciudad.",
-                icon: "⚖️",
-              },
-              {
-                title: "Gestión Directa",
-                desc: "Solicita citas o información adicional con un solo clic.",
-                icon: "⚡",
-              },
-            ].map((feature, i) => (
-              <div
-                key={i}
-                className="group relative rounded-3xl bg-card p-8 shadow-premium transition-all hover:shadow-2xl hover:-translate-y-1"
-              >
-                <div className="mb-4 text-3xl">{feature.icon}</div>
-                <h3 className="mb-2 text-xl font-bold text-secondary">{feature.title}</h3>
-                <p className="text-secondary/60">{feature.desc}</p>
-              </div>
-            ))}
-          </div>
+          <LoveAnimations />
         </div>
 
         {/* Tariff Section */}
