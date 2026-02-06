@@ -104,7 +104,8 @@ export default function TariffTable({ data }: Props) {
                                 {sectionKey.replace(/_/g, " ").replace(/^\d+ /, "")}
                             </h3>
                         </div>
-                        <div className="overflow-x-auto">
+                        {/* Desktop Table */}
+                        <div className="hidden overflow-x-auto md:block">
                             <table className="w-full text-left">
                                 <thead>
                                     <tr className="border-b border-border bg-slate-50/50">
@@ -138,6 +139,34 @@ export default function TariffTable({ data }: Props) {
                                     ))}
                                 </tbody>
                             </table>
+                        </div>
+
+                        {/* Mobile Cards */}
+                        <div className="grid divide-y divide-border md:hidden">
+                            {items.map((item) => (
+                                <div key={item.codigo} className="p-6">
+                                    <div className="mb-4 flex items-start justify-between gap-4">
+                                        <div>
+                                            <span className="text-[10px] font-bold uppercase tracking-wider text-secondary/40">{item.codigo}</span>
+                                            <h4 className="font-bold text-secondary">{item.servicio}</h4>
+                                        </div>
+                                        <div className="text-right">
+                                            <span className="text-[10px] font-bold uppercase tracking-wider text-secondary/40">Base</span>
+                                            <p className="font-semibold text-secondary/70 text-sm">₡{item.monto_crc.toLocaleString()}</p>
+                                        </div>
+                                    </div>
+                                    <div className="relative w-full">
+                                        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/40 text-sm font-semibold">Nuevo: ₡</span>
+                                        <input
+                                            type="text"
+                                            placeholder="Ingresa el nuevo monto"
+                                            value={formatNumber(newPrices[item.codigo] || "")}
+                                            onChange={(e) => handlePriceChange(item.codigo, e.target.value)}
+                                            className="w-full rounded-2xl border border-border bg-slate-50 py-4 pl-20 pr-4 text-lg font-bold text-primary focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                                        />
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 ))}

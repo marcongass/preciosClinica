@@ -26,21 +26,21 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="relative pt-32 pb-20">
+      <main className="relative pt-24 pb-12 md:pt-32 md:pb-20">
         {/* Hero Section */}
         <div className="mx-auto max-w-7xl px-6 text-center">
-          <div className="inline-flex items-center rounded-full bg-primary/5 px-3 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20 mb-6">
+          <div className="inline-flex items-center rounded-full bg-primary/5 px-3 py-1 text-xs sm:text-sm font-medium text-primary ring-1 ring-inset ring-primary/20 mb-6">
             Transparencia total en servicios de salud
           </div>
-          <h1 className="mb-8 font-heading text-5xl font-extrabold tracking-tight text-secondary sm:text-7xl">
+          <h1 className="mb-6 font-heading text-4xl font-extrabold tracking-tight text-secondary sm:text-7xl">
             ¡Hola <span className="text-gradient">mami! ❤️</span>
           </h1>
-          <p className="mx-auto mb-10 max-w-2xl text-lg text-secondary/60 leading-relaxed font-sans">
+          <p className="mx-auto mb-8 max-w-2xl text-base sm:text-lg text-secondary/60 leading-relaxed font-sans">
             Aquí tienes que actualizar los precios de los procedimientos de la clínica.
             Consulta las tarifas oficiales y ajusta lo que necesites fácilmente.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a href="#tarifas" className="flex h-14 items-center justify-center rounded-2xl bg-primary px-8 text-lg font-semibold text-white shadow-premium hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+            <a href="#tarifas" className="w-full sm:w-auto flex h-14 items-center justify-center rounded-2xl bg-primary px-8 text-lg font-semibold text-white shadow-premium hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
               Ver Catálogo de Precios
             </a>
           </div>
