@@ -124,14 +124,14 @@ export default function TariffTable({ data }: Props) {
                                                 ₡{item.monto_crc.toLocaleString()}
                                             </td>
                                             <td className="px-8 py-4">
-                                                <div className="relative max-w-[150px]">
-                                                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-secondary/40 text-sm">₡</span>
+                                                <div className="relative max-w-[180px]">
+                                                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-secondary/50 text-base font-medium">₡</span>
                                                     <input
                                                         type="text"
-                                                        placeholder="Nuevo monto"
+                                                        placeholder="Nuevo..."
                                                         value={formatNumber(newPrices[item.codigo] || "")}
                                                         onChange={(e) => handlePriceChange(item.codigo, e.target.value)}
-                                                        className="w-full rounded-xl border border-border bg-white py-2 pl-7 pr-3 text-sm text-secondary focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+                                                        className="w-full rounded-xl border-2 border-slate-100 bg-white py-2.5 pl-8 pr-3 text-base font-bold text-primary shadow-sm focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all placeholder:font-normal placeholder:text-secondary/30"
                                                     />
                                                 </div>
                                             </td>
@@ -156,13 +156,16 @@ export default function TariffTable({ data }: Props) {
                                         </div>
                                     </div>
                                     <div className="relative w-full">
-                                        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/40 text-sm font-semibold">Nuevo: ₡</span>
+                                        <div className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center gap-1 pointer-events-none">
+                                            <span className="text-xs font-bold uppercase text-secondary/40">Nuevo</span>
+                                            <span className="text-lg font-bold text-secondary/60">₡</span>
+                                        </div>
                                         <input
                                             type="text"
-                                            placeholder="Ingresa el nuevo monto"
+                                            placeholder="0"
                                             value={formatNumber(newPrices[item.codigo] || "")}
                                             onChange={(e) => handlePriceChange(item.codigo, e.target.value)}
-                                            className="w-full rounded-2xl border border-border bg-slate-50 py-4 pl-20 pr-4 text-lg font-bold text-primary focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                                            className="w-full rounded-2xl border-2 border-slate-100 bg-white py-5 pl-24 pr-6 text-xl font-black text-primary shadow-inner-premium focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all placeholder:text-secondary/10"
                                         />
                                     </div>
                                 </div>
