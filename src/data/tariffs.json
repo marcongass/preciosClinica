@@ -1,6 +1,5 @@
 {
   "tarifas_odontologicas_costa_rica_2025": {
-
     "1_diagnostico": [
       {"codigo": "1.1", "servicio": "Consulta Diagnóstica (4 rx, 2 modelos, odontograma)", "monto_crc": 48000},
       {"codigo": "1.2", "servicio": "Consulta odontológica específica", "monto_crc": 36000},
@@ -8,9 +7,9 @@
       {"codigo": "1.4", "servicio": "Fotografía Digital Intraorales y Extraorales", "monto_crc": 26000},
       {"codigo": "1.5", "servicio": "Consulta de Emergencia", "monto_crc": 92000},
       {"codigo": "1.6", "servicio": "Consulta Primera Vez (Virtual)", "monto_crc": 33000},
-      {"codigo": "1.7", "servicio": "Escaneo Digital", "monto_crc": 40000}
+      {"codigo": "1.7", "servicio": "Escaneo Digital", "monto_crc": 40000},
+      {"codigo": "0.1", "servicio": "Impresión con escáner", "monto_crc": 32000}
     ],
-
     "2_radiologia": [
       {"codigo": "2.1", "servicio": "Radiografía Convencional o Digital", "monto_crc": 19000},
       {"codigo": "2.2", "servicio": "Radiografía Oclusal", "monto_crc": 17000},
@@ -23,7 +22,6 @@
       {"codigo": "2.9", "servicio": "Tomografía Computarizada Cone Beam 2 Arcadas", "monto_crc": 71000},
       {"codigo": "2.10", "servicio": "Informe Radiológico", "monto_crc": 42000}
     ],
-
     "3_operatoria": [
       {"codigo": "3.1", "servicio": "Amalgama Simple", "monto_crc": 33000},
       {"codigo": "3.2", "servicio": "Amalgama Compleja", "monto_crc": 48000},
@@ -38,7 +36,6 @@
       {"codigo": "3.11", "servicio": "Reconstrucción por Fractura en Resina", "monto_crc": 63000},
       {"codigo": "3.12", "servicio": "Ajuste Oclusal", "monto_crc": 29000}
     ],
-
     "4_endodoncia": [
       {"codigo": "4.1", "servicio": "Endodoncia Anteriores y retratamiento (Uniradiculares)", "monto_crc": 71000},
       {"codigo": "4.2", "servicio": "Endodoncia Premolares y retratamiento (Birradiculares)", "monto_crc": 91000},
@@ -48,7 +45,6 @@
       {"codigo": "4.6", "servicio": "Extirpación Pulpar", "monto_crc": 44000},
       {"codigo": "4.7", "servicio": "Apicectomía y Retrobturación", "monto_crc": 133000}
     ],
-
     "5_prostodoncia_fija": [
       {"codigo": "5.1.1.1", "servicio": "Corona Metálica Semi-Precioso", "monto_crc": 209000},
       {"codigo": "5.1.1.2", "servicio": "Corona Metálica No Precioso", "monto_crc": 199000},
@@ -58,8 +54,128 @@
       {"codigo": "5.1.1.6", "servicio": "Atache de Precisión y Corona", "monto_crc": 284000},
       {"codigo": "5.1.1.7", "servicio": "Remoción de Corona", "monto_crc": 40000},
       {"codigo": "5.1.1.8", "servicio": "Laminado Zirconio y/o Porcelana", "monto_crc": 222000},
-      {"codigo": "5.1.1.X", "servicio": "Impresión con escáner", "monto_crc": 32000}
+      {"codigo": "5.1.1.9", "servicio": "Incrustaciones Metal Semi - Precioso", "monto_crc": 211000},
+      {"codigo": "5.1.1.10", "servicio": "Incrustaciones Metal No - Precioso", "monto_crc": 187000},
+      {"codigo": "5.1.1.11", "servicio": "Incrustaciones Zirconio y/o Porcelana", "monto_crc": 224000},
+      {"codigo": "5.1.2.1", "servicio": "Endoposte Prefabricado y Muñón", "monto_crc": 85000},
+      {"codigo": "5.1.2.2", "servicio": "Remoción de Endoposte", "monto_crc": 56000},
+      {"codigo": "5.1.3.1", "servicio": "Corona Provisional en Acrílico o Policarbonato por unidad", "monto_crc": 48000},
+      {"codigo": "5.1.3.3", "servicio": "Corona Provisional de Acrílico Reforzado con Resina", "monto_crc": 56000}
+    ],
+    "5_prostodoncia_removible": [
+      {"codigo": "5.2.1.1", "servicio": "Prótesis Parcial Removible Acrílica", "monto_crc": 206000},
+      {"codigo": "5.2.1.2", "servicio": "Prótesis Parcial Removible Acrílica Inmediata", "monto_crc": 151000},
+      {"codigo": "5.2.1.3", "servicio": "Prótesis Parcial Removible Flexible", "monto_crc": 202000},
+      {"codigo": "5.2.1.4", "servicio": "Prótesis Parcial Removible Metálica (Cromo-Cobalto)", "monto_crc": 294000},
+      {"codigo": "5.2.2.1", "servicio": "Prótesis Total Removible Acrílico", "monto_crc": 221000},
+      {"codigo": "5.2.2.2", "servicio": "Prótesis Total Removible Total Acrílico - Base Metálica", "monto_crc": 240000},
+      {"codigo": "5.2.2.3", "servicio": "Prótesis Total Removible Inmediata", "monto_crc": 158000},
+      {"codigo": "5.2.3.1", "servicio": "Reparación Prótesis Agregar Diente", "monto_crc": 39000},
+      {"codigo": "5.2.3.2", "servicio": "Reparación Prótesis Agregar Retenedor", "monto_crc": 73000},
+      {"codigo": "5.2.3.3", "servicio": "Reparación Prótesis Soldadura Metálica", "monto_crc": 73000},
+      {"codigo": "5.2.3.4", "servicio": "Reparación Prótesis Rebasado Autocurado", "monto_crc": 63000},
+      {"codigo": "5.2.3.5", "servicio": "Reparación Prótesis Rebasado Termocurado", "monto_crc": 131000}
+    ],
+    "6_implantes": [
+      {"codigo": "6.1", "servicio": "Cirugía de Colocación de Implante Dental", "monto_crc": 457000},
+      {"codigo": "6.2", "servicio": "Cirugía Segunda Fase del Implante", "monto_crc": 39000},
+      {"codigo": "6.3", "servicio": "Guía Quirúrgica Computarizada para colocación de implante", "monto_crc": 216000},
+      {"codigo": "6.4", "servicio": "Colocación de Mini Implantes", "monto_crc": 321000},
+      {"codigo": "6.5", "servicio": "Sobre dentadura sobre Implantes con dos ataches", "monto_crc": 652000},
+      {"codigo": "6.6", "servicio": "Corona Implantosoportada Metal Porcelana + Poste Maquinado", "monto_crc": 444000},
+      {"codigo": "6.7", "servicio": "Corona Implantosoportada Zirconio y/o Porcelana + Poste Maquinado", "monto_crc": 472000},
+      {"codigo": "6.8", "servicio": "Corona Implantosoportada Metal Porcelana + Poste Prefabricado", "monto_crc": 471000},
+      {"codigo": "6.9", "servicio": "Corona Implantosoportada Zirconio y/o Porcelana + Poste Prefabricado", "monto_crc": 473000},
+      {"codigo": "6.10", "servicio": "Corona Implantosoportada Metal Porcelana + Poste Colado", "monto_crc": 507000},
+      {"codigo": "6.11", "servicio": "Corona Implantosoportada Zirconio y/o Porcelana + Poste Colado", "monto_crc": 427000},
+      {"codigo": "6.12", "servicio": "Póntico de Implante Metal Porcelana", "monto_crc": 218000},
+      {"codigo": "6.13", "servicio": "Póntico de Implante Zirconio y/o Solo Porcelana", "monto_crc": 245000},
+      {"codigo": "6.14", "servicio": "Provisional de Corona Implantosoportada", "monto_crc": 147000},
+      {"codigo": "6.15", "servicio": "Prótesis Implantosoportada barra híbrida (fresada o colada) + Prótesis Acrílica", "monto_crc": 1816000},
+      {"codigo": "6.16", "servicio": "Prótesis implantosoportada barra zirconio+ porcelana // super estructura", "monto_crc": 3944000},
+      {"codigo": "6.17", "servicio": "Prótesis implantosoportada metal porcelana (fresada ó colada)", "monto_crc": 1634000}
+    ],
+    "7_prevencion": [
+      {"codigo": "7.1", "servicio": "Limpieza Profiláctica + Flúor + IFO (NO INCLUYE RASPADO)", "monto_crc": 37000},
+      {"codigo": "7.3", "servicio": "Limpieza Profiláctica + Flúor + IFO + Raspado ultrasónico o manual", "monto_crc": 50000},
+      {"codigo": "7.4", "servicio": "Sellante de Fosas y Fisuras", "monto_crc": 31000}
+    ],
+    "8_odontopediatria": [
+      {"codigo": "8.1", "servicio": "Motivación y Adaptación", "monto_crc": 33000},
+      {"codigo": "8.2", "servicio": "Corona de Acero Cromado", "monto_crc": 59000},
+      {"codigo": "8.3", "servicio": "Corona de Resina", "monto_crc": 68000},
+      {"codigo": "8.4", "servicio": "Mantenedor de Espacio Unilateral", "monto_crc": 105000},
+      {"codigo": "8.5", "servicio": "Mantenedor de Espacio Bilateral", "monto_crc": 112000}
+    ],
+    "9_periodoncia": [
+      {"codigo": "9.1", "servicio": "Diagnóstico Periodontal (Sangrado, Placa y Periodontograma)", "monto_crc": 36000},
+      {"codigo": "9.2", "servicio": "Raspado Ultrasónico o Manual (Por Sesión)", "monto_crc": 47000},
+      {"codigo": "9.3", "servicio": "Cirugía Periodontal (Cuadrante, Sector, Sesión)", "monto_crc": 135000},
+      {"codigo": "9.4", "servicio": "Curetaje", "monto_crc": 47000}
+    ],
+    "10_ortodoncia": [
+      {"codigo": "10.1", "servicio": "Control mensual de ortodoncia metálica", "monto_crc": 36000},
+      {"codigo": "10.2", "servicio": "Control mensual de ortodoncia estética", "monto_crc": 44000},
+      {"codigo": "10.3", "servicio": "Reposición de Brackets Metálico", "monto_crc": 18000},
+      {"codigo": "10.4", "servicio": "Reposición de Brackets Estético", "monto_crc": 33000},
+      {"codigo": "10.5", "servicio": "Cita de Remoción de Ortodoncia", "monto_crc": 93000},
+      {"codigo": "10.6", "servicio": "Retenedor de Ortodoncia Fijo (Incluye las 2 Arcadas)", "monto_crc": 87000},
+      {"codigo": "10.7", "servicio": "Retenedor de Ortodoncia Removible (Incluye las 2 Arcadas)", "monto_crc": 100000},
+      {"codigo": "10.8", "servicio": "Ortodoncia Aditamento Fijo", "monto_crc": 93000},
+      {"codigo": "10.9", "servicio": "Ortodoncia Aditamento Removible", "monto_crc": 101000},
+      {"codigo": "10.10", "servicio": "Cita de Colocación de Ortodoncia Metálica (Prima)", "monto_crc": 220000},
+      {"codigo": "10.11", "servicio": "Cita de Colocación de Ortodoncia Estéticos (Prima)", "monto_crc": 347000},
+      {"codigo": "10.12", "servicio": "Colocación de Ortodoncia Invisible (12 Alineadores)", "monto_crc": 580541},
+      {"codigo": "10.13", "servicio": "Colocación de Ortodoncia Invisible (Hasta 25 Alineadores)", "monto_crc": 1141540}
+    ],
+    "11_blanqueamiento": [
+      {"codigo": "11.1", "servicio": "Blanqueamiento Fundas en Casa", "monto_crc": 133000},
+      {"codigo": "11.2", "servicio": "Blanqueamiento En Sillón Dental", "monto_crc": 134000},
+      {"codigo": "11.3", "servicio": "Blanqueamiento Interno (Pieza no Vital)", "monto_crc": 101000},
+      {"codigo": "11.4", "servicio": "Blanqueamiento Mixto", "monto_crc": 178000}
+    ],
+    "12_quirurgico": [
+      {"codigo": "12.1", "servicio": "Exodoncia Simple", "monto_crc": 40000},
+      {"codigo": "12.2", "servicio": "Exodoncia Compleja", "monto_crc": 57000},
+      {"codigo": "12.3", "servicio": "Exodoncia Preservación de Hueso", "monto_crc": 164000},
+      {"codigo": "12.4", "servicio": "Exodoncia Diente Temporal", "monto_crc": 40000},
+      {"codigo": "12.5", "servicio": "Reimplante por Traumatismo", "monto_crc": 110000},
+      {"codigo": "12.6", "servicio": "Biopsia Incisional", "monto_crc": 119000},
+      {"codigo": "12.7", "servicio": "Incisión y Drenaje de Abscesos", "monto_crc": 38000},
+      {"codigo": "12.8", "servicio": "Alargamiento de Corona", "monto_crc": 103000},
+      {"codigo": "12.9", "servicio": "Gingivoplastía", "monto_crc": 101000},
+      {"codigo": "12.10", "servicio": "Frenectomía", "monto_crc": 99000},
+      {"codigo": "12.11", "servicio": "Regularización Ósea Simple", "monto_crc": 77000},
+      {"codigo": "12.12", "servicio": "Regularización Ósea Guiada", "monto_crc": 278000},
+      {"codigo": "12.13", "servicio": "Sutura Heridas Mucosa Oral", "monto_crc": 43000},
+      {"codigo": "12.14", "servicio": "Tratamiento de Alveolitis por Cita", "monto_crc": 32000},
+      {"codigo": "12.15", "servicio": "Exposición Quirúrgica de Diente Retenido + Botón", "monto_crc": 63000},
+      {"codigo": "12.16", "servicio": "Cirugía de Terceras Molares Impactadas o Malposición", "monto_crc": 112000},
+      {"codigo": "12.17", "servicio": "Exposición quirúrgica de diente retenido (Ventana)", "monto_crc": 57000},
+      {"codigo": "12.18", "servicio": "Regeneración Ósea (0.5cc de Hueso)", "monto_crc": 299000},
+      {"codigo": "12.19", "servicio": "Enucleación", "monto_crc": 109000},
+      {"codigo": "12.20", "servicio": "Cirugía de Diente Retenido", "monto_crc": 109000},
+      {"codigo": "12.21", "servicio": "Remoción de Cuerpo Extraño", "monto_crc": 100000},
+      {"codigo": "12.22", "servicio": "Cirugía de Torus", "monto_crc": 145000},
+      {"codigo": "12.23", "servicio": "Cirugía de Diente Supernumerario", "monto_crc": 109000},
+      {"codigo": "12.24", "servicio": "Remoción de tumores benignos (no incluye biopsia)", "monto_crc": 109000},
+      {"codigo": "12.25", "servicio": "Cirugía de Opercubectomía", "monto_crc": 54000}
+    ],
+    "13_otros": [
+      {"codigo": "13.1", "servicio": "Plano de Mordida Miorrelajante", "monto_crc": 122000},
+      {"codigo": "13.2", "servicio": "Plano de Mordida Acrílico Termocurado", "monto_crc": 115000},
+      {"codigo": "13.3", "servicio": "Peritaje Completo", "monto_crc": 237000},
+      {"codigo": "13.4", "servicio": "Ferulización", "monto_crc": 86000}
+    ],
+    "4_endodoncia_equipo_especializado": [
+      {"codigo": "4.1", "servicio": "Endodoncia Simple Anteriores (Uniradiculares)", "monto_crc": 91000},
+      {"codigo": "4.2", "servicio": "Endodoncia Simple Premolares (Birradiculares)", "monto_crc": 113000},
+      {"codigo": "4.3", "servicio": "Endodoncia Simple Molares (Multiradiculares)", "monto_crc": 180000},
+      {"codigo": "4.4", "servicio": "Retratamiento", "monto_crc": 182000},
+      {"codigo": "4.5", "servicio": "Pulpotomía", "monto_crc": 51000},
+      {"codigo": "4.6", "servicio": "Pulpectomía", "monto_crc": 78000},
+      {"codigo": "4.7", "servicio": "Extirpación Pulpar", "monto_crc": 76000},
+      {"codigo": "4.8", "servicio": "Apicectomía y Retrobturación", "monto_crc": 141000}
     ]
-
   }
 }
